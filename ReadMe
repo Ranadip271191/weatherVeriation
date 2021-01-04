@@ -1,7 +1,7 @@
 Technology used :
      Programming Languange : Java
      UI automation tool : Selenium
-     API automation tool : Rest Assure
+     API automation tool : Rest Assured
      Framework : BDD framework with cucumber
 System Requirment : JDK 1.8 and above, Maven, Chrome Browser
 
