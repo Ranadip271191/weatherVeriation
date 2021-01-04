@@ -1,0 +1,439 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-04T12:18:17.915Z",
+        "line": 9,
+        "name": "Get weather data from API",
+        "description": "",
+        "id": "validate-weather-report;get-weather-data-from-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 632000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User send \"Jaipur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jaipur\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromAPI.user_send_cityname(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1734000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"GetWeatherAPI\" api with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetWeatherAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromAPI.user_calls_api_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1122000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "API call got success with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromAPI.api_call_got_success_with_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetWeatherFromAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-04T12:18:21.461Z",
+        "line": 10,
+        "name": "Get weather data from API",
+        "description": "",
+        "id": "validate-weather-report;get-weather-data-from-api;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User send \"Kolkata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kolkata\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromAPI.user_send_cityname(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 818000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"GetWeatherAPI\" api with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetWeatherAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromAPI.user_calls_api_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "API call got success with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromAPI.api_call_got_success_with_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetWeatherFromAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-04T12:18:22.367Z",
+        "line": 21,
+        "name": "Get weather Report NDTV UI",
+        "description": "",
+        "id": "validate-weather-report;get-weather-report-ndtv-ui;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36709000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User lunch browser",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_lunch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4768000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigate to weather page",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_navigate_to_weather_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User send \"Jaipur\" under pin your City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jaipur\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_send_under_pin_your_City(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User validate the weather data of the city from the map",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_validate_the_weather_data_of_the_city_from_the_map()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetWeatherFromNDTV"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-04T12:19:04.414Z",
+        "line": 22,
+        "name": "Get weather Report NDTV UI",
+        "description": "",
+        "id": "validate-weather-report;get-weather-report-ndtv-ui;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34302000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User lunch browser",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_lunch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2708000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigate to weather page",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_navigate_to_weather_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User send \"Kolkata\" under pin your City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kolkata\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_send_under_pin_your_City(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User validate the weather data of the city from the map",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.user_validate_the_weather_data_of_the_city_from_the_map()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.GetWeatherDataFromNDTVui.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetWeatherFromNDTV"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-04T12:19:41.962Z",
+        "line": 31,
+        "name": "Compare weather data from API and UI",
+        "description": "",
+        "id": "validate-weather-report;compare-weather-data-from-api-and-ui;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User get \"Jaipur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jaipur\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.CompareVeriation.user_get(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User get UI and API data",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.CompareVeriation.user_get_UI_and_API_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User compare the veriation",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.CompareVeriation.user_compare_the_veriation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompareVeriation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-04T12:19:41.967Z",
+        "line": 32,
+        "name": "Compare weather data from API and UI",
+        "description": "",
+        "id": "validate-weather-report;compare-weather-data-from-api-and-ui;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User get \"Kolkata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kolkata\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.WeatherReporting.API.stepDefinations.CompareVeriation.user_get(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User get UI and API data",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.CompareVeriation.user_get_UI_and_API_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Celcius veriation of Kolkata did not match\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat com.WeatherReporting.API.stepDefinations.CompareVeriation.user_compare_the_veriation(CompareVeriation.java:67)\n\tat ✽.User compare the veriation(file:///Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/features/weatherReport.feature:28)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "User compare the veriation",
+            "match": {
+              "location": "com.WeatherReporting.API.stepDefinations.CompareVeriation.user_compare_the_veriation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompareVeriation"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Weather Report",
+    "description": "",
+    "id": "validate-weather-report",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/WeatherReporting/API/features/weatherReport.feature",
+    "tags": []
+  }
+]

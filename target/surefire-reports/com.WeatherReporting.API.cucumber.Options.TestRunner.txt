@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.WeatherReporting.API.cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 92.589 sec <<< FAILURE!
+Compare weather data from API and UI(Validate Weather Report)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: Celcius veriation of Kolkata did not match
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.WeatherReporting.API.stepDefinations.CompareVeriation.user_compare_the_veriation(CompareVeriation.java:67)
+	at ✽.User compare the veriation(file:///Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/features/weatherReport.feature:28)
+

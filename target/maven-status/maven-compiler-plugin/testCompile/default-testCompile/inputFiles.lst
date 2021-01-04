@@ -1,0 +1,10 @@
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/library.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/resources/APIResources.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/cucumber/Options/TestRunner.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/comparator/dataConvertor.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/comparator/CustomException.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/pages/weather_page.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/pages/landing_page.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/stepDefinations/GetWeatherDataFromNDTVui.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/stepDefinations/CompareVeriation.java
+/Users/rbakshi1/MyDocs/WeatherReporting/src/test/java/com/WeatherReporting/API/stepDefinations/GetWeatherDataFromAPI.java

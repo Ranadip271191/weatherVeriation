@@ -1,0 +1,17 @@
+Technology used :
+    API :  Java, Cuccumber, Rest Assured, BDD Framework
+
+Execution flow :
+   1. For windows machine run the run.bat file to start the execution.
+   2. Framework is also compatible with mac
+
+
+System Requirment : JDK 1.8 and above, Maven, Chrome Browser
+
+Results :
+1. After Result will be placed on "cucumber-html-reports" folder.
+2. Open the "overview-features.html" on browser.
+3. testData.xlsx will have all results of both API and UI
+4. In features file only jaipur and kolkata added, can be add more.
+5. CompareVeriation.java file will do the comparition i=of the results.
+

@@ -1,0 +1,10 @@
+com/WeatherReporting/API/pages/weather_page.class
+com/WeatherReporting/comparator/CustomException.class
+com/WeatherReporting/API/stepDefinations/CompareVeriation.class
+com/WeatherReporting/library.class
+com/WeatherReporting/API/stepDefinations/GetWeatherDataFromAPI.class
+com/WeatherReporting/API/stepDefinations/GetWeatherDataFromNDTVui.class
+com/WeatherReporting/API/cucumber/Options/TestRunner.class
+com/WeatherReporting/comparator/dataConvertor.class
+com/WeatherReporting/API/resources/APIResources.class
+com/WeatherReporting/API/pages/landing_page.class

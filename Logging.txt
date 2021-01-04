@@ -1,0 +1,141 @@
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?q=Jaipur&appid=7fe67bf08c80ded756e598d6f8fedaea
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Jaipur
+				appid=7fe67bf08c80ded756e598d6f8fedaea
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Mon, 04 Jan 2021 12:18:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 541
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=jaipur
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 75.82,
+        "lat": 26.92
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        },
+        {
+            "id": 721,
+            "main": "Haze",
+            "description": "haze",
+            "icon": "50d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 294.15,
+        "feels_like": 294.25,
+        "temp_min": 294.15,
+        "temp_max": 294.15,
+        "pressure": 1013,
+        "humidity": 68
+    },
+    "visibility": 3000,
+    "wind": {
+        "speed": 2.1,
+        "deg": 110
+    },
+    "rain": {
+        "1h": 0.52
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1609762350,
+    "sys": {
+        "type": 1,
+        "id": 9170,
+        "country": "IN",
+        "sunrise": 1609724785,
+        "sunset": 1609762587
+    },
+    "timezone": 19800,
+    "id": 1269515,
+    "name": "Jaipur",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=7fe67bf08c80ded756e598d6f8fedaea
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Kolkata
+				appid=7fe67bf08c80ded756e598d6f8fedaea
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Mon, 04 Jan 2021 12:18:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 457
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=kolkata
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 88.37,
+        "lat": 22.57
+    },
+    "weather": [
+        {
+            "id": 721,
+            "main": "Haze",
+            "description": "haze",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 299.15,
+        "feels_like": 298.71,
+        "temp_min": 299.15,
+        "temp_max": 299.15,
+        "pressure": 1012,
+        "humidity": 44
+    },
+    "visibility": 3500,
+    "wind": {
+        "speed": 1.86,
+        "deg": 4
+    },
+    "clouds": {
+        "all": 34
+    },
+    "dt": 1609762226,
+    "sys": {
+        "type": 1,
+        "id": 9114,
+        "country": "IN",
+        "sunrise": 1609721242,
+        "sunset": 1609760105
+    },
+    "timezone": 19800,
+    "id": 1275004,
+    "name": "Kolkata",
+    "cod": 200
+}
