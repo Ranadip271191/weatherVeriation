@@ -1,17 +1,26 @@
 Technology used :
-    API :  Java, Cuccumber, Rest Assured, BDD Framework
-
-Execution flow :
-   1. For windows machine run the run.bat file to start the execution.
-   2. Framework is also compatible with mac
-
-
+     Programming Languange : Java
+     UI automation tool : Selenium
+     API automation tool : Rest Assure
+     Framework : BDD framework with cucumber
 System Requirment : JDK 1.8 and above, Maven, Chrome Browser
 
-Results :
-1. After Result will be placed on "cucumber-html-reports" folder.
-2. Open the "overview-features.html" on browser.
-3. testData.xlsx will have all results of both API and UI
-4. In features file only jaipur and kolkata added, can be add more.
-5. CompareVeriation.java file will do the comparition i=of the results.
+How to start the Execution :
+      1. For windows os, execute the "run.bat" file to start the execution.
+      2. From any IDE need to execute "TestRunner.java" file to start the execution
+      3. Framework is compatible with Mac os also.
 
+Execution flow :
+    from feature file
+      1. @GetWeatherFromAPI will be executed and it will update results.properties and testData.xlsx file
+      2. @GetWeatherFromNDTV will be executed then and it will update results.properties and testData.xlsx file
+      3. @CompareVeriation will be executed then and fetch the data from results.properties file and compare the veriation of 2.
+
+Results :
+     1. After the execution, Results will be placed on "cucumber-html-reports" folder.
+     2. Open the "overview-features.html" on browser.
+     3. "testData.xlsx" will have all results of both API and UI
+     4. In features file only jaipur and kolkata as city added, can be add more based on the requirments
+     5. "CompareVeriation.java" file will do the comparison between UI and API results
+
+Git link : https://github.com/Ranadip271191/weatherVeriation
