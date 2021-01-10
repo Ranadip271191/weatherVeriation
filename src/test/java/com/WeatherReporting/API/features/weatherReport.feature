@@ -15,7 +15,6 @@ Feature: Validate Weather Report
       | Mumbai |
       | Srinagar |
       | Hyderabad |
-      | Vishakhapatnam |
 
   @GetWeatherFromNDTV
   Scenario Outline: Get weather Report NDTV UI
@@ -35,8 +34,7 @@ Feature: Validate Weather Report
       | Mumbai |
       | Srinagar |
       | Hyderabad |
-      | Vishakhapatnam |
-
+    
   @CompareVeriation
   Scenario Outline: Compare weather data from API and UI
     Given User get "<cityname>"
