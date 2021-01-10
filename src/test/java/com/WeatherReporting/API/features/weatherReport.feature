@@ -34,7 +34,7 @@ Feature: Validate Weather Report
       | Mumbai |
       | Srinagar |
       | Hyderabad |
-    
+
   @CompareVeriation
   Scenario Outline: Compare weather data from API and UI
     Given User get "<cityname>"
@@ -44,6 +44,13 @@ Feature: Validate Weather Report
       | cityname |
       | Jaipur |
       | Kolkata |
+      | Ahmedabad |
+      | Lucknow |
+      | Bengaluru |
+      | Patna |
+      | Mumbai |
+      | Srinagar |
+      | Hyderabad |
 
 
 
