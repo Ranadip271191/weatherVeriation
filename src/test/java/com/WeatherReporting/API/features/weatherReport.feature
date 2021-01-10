@@ -8,6 +8,14 @@ Feature: Validate Weather Report
       | cityname |
       | Jaipur |
       | Kolkata |
+      | Ahmedabad |
+      | Lucknow |
+      | Bengaluru |
+      | Patna |
+      | Mumbai |
+      | Srinagar |
+      | Hyderabad |
+      | Vishakhapatnam |
 
   @GetWeatherFromNDTV
   Scenario Outline: Get weather Report NDTV UI
@@ -20,6 +28,14 @@ Feature: Validate Weather Report
       | cityname |
       | Jaipur |
       | Kolkata |
+      | Ahmedabad |
+      | Lucknow |
+      | Bengaluru |
+      | Patna |
+      | Mumbai |
+      | Srinagar |
+      | Hyderabad |
+      | Vishakhapatnam |
 
   @CompareVeriation
   Scenario Outline: Compare weather data from API and UI
