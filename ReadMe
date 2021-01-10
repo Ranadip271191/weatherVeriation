@@ -3,7 +3,7 @@ Technology used :
      UI automation tool : Selenium
      API automation tool : Rest Assured
      Framework : BDD framework with cucumber
-System Requirment : JDK 1.8 and above, Maven, Chrome Browser
+System Requirment : JDK 1.8 and above, Maven, Chrome Browser version 87 
 
 How to start the Execution :
       1. For windows os, execute the "run.bat" file to start the execution.
